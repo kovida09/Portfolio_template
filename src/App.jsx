@@ -24,8 +24,9 @@ import "./styles.css";
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "Kovida Tyagi",
-  title: "Backend Developer",
+  ofc:"Kovida Tyagi",
+  name: "HEY  THERE!!",
+  title: "My name is Kovida Tyagi. I'm a backend developer specializing in crafting robust systems and APIs that power seamless digital experiences.",
   email: "kovidatyagi10@gmail.com",
   gitHub: "kovida09",
   instagram: "kovida.tyagi",

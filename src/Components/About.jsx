@@ -53,12 +53,13 @@ const About = () => {
       <img className="background" src={image} alt="Motion Background" />
       <div
         style={{
-          backgroundColor: "beige",
+          backgroundColor: "black",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
           borderRadius: "20px",
+          color:"white"
         }}
       >
         <h2>About Myself</h2>
@@ -71,6 +72,7 @@ const About = () => {
             fontSize: "1.25rem",
             margin: "2rem 3rem",
             gap: "3rem",
+            color:"white"
           }}
         >
           {skillsList.map((skill) => (
@@ -78,7 +80,7 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <p style={{ padding: "1rem 0rem 0" }}>{detailOrQuote}</p>
       </div>
     </section>
   );

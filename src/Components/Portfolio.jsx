@@ -20,6 +20,7 @@ import React from "react";
  * freely use on your site.
  */
 import image from "../images/p.jpg";
+backgroundColor:"black"
 
 const imageAltText = "desktop with books and laptop";
 
@@ -59,12 +60,19 @@ const projectList = [
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+      <h1 style={{ textAlign: "center" ,font: " caption",fontWeight: "bold",fontSize: "3rem"}}>PORTFOLIO</h1>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          paddingTop: "1rem",
+          backgroundColor: "black",
+        }}
+      >
         <div style={{ maxWidth: "50%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "70%", width: "100%", objectFit: "cover" }}
+            style={{ height: "90%", width: "100%", objectFit: "cover" }}
             alt={imageAltText}
           />
         </div>
@@ -72,7 +80,7 @@ const Portfolio = () => {
           {projectList.map((project) => (
             <div className="box" key={project.title}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
+                <h3 style={{ flexBasis: "90px" }}>{project.title}</h3>
               </a>
               <p className="small">{project.description}</p>
             </div>

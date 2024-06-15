@@ -47,9 +47,9 @@ const Footer = (props) => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        gap: "2.5rem",
-        padding: "5rem 0 3rem",
-        backgroundColor: primaryColor,
+        gap: "2rem",
+        padding: "2rem 0 3rem",
+        backgroundColor: "black",
         width: "100vw"
       }}
     >
@@ -114,7 +114,7 @@ const Footer = (props) => {
         )}
       </div>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
-        Created by {name}
+        Created by Kovida Tyagi
       </p>
     </div>
   );
