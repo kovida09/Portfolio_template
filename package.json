@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
+<<<<<<< HEAD
   "homepage": http://kovida09.github.io/Portfolio_template,
+=======
+  "homepage": "http://kovida09.github.io/Portfolio_template",
+>>>>>>> 86b0b04 (sorce)
   "scripts": {
     "start": "parcel",
     "build": "parcel build",

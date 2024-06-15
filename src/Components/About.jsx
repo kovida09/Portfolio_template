@@ -53,11 +53,12 @@ const About = () => {
       <img className="background" src={image} alt="Motion Background" />
       <div
         style={{
-          backgroundColor: "grey",
+          backgroundColor: "beige",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
+          borderRadius: "20px",
         }}
       >
         <h2>About Myself</h2>
