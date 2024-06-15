@@ -33,26 +33,26 @@ const projectList = [
   {
     title: "Food Delivery App",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "From Kitchen to Your Doorstep: Effortless Dining Experience",
+    url: "https://github.com/kovida09/Food-Delivery-WebApp-using-MERN?tab=readme-ov-file#food-delivery-webapp-using-mern-1",
   },
   {
-    title: "",
+    title: "PROJECT-2",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Forecasting friendships, predicting paths ahead. Navigate networks with precision, connect with confidence.",
+    url: "https://github.com/kovida09/Prediction-of-social-network-",
   },
   {
-    title: "",
+    title: "Resume",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "My career narrative, perfectly crafted.Showcasing your skills, achievements, and ambition.",
+    url: "https://drive.google.com/file/d/1Sjr4HuoCK4wJeU_ZfkGSrvLW9l-jlZs_/view?usp=sharing",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Are u a Tech geek?",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Exploring the forefront of technology.Unveiling innovation, one byte at a time",
+    url: "https://techcrunch.com/",
   },
 ];
 
