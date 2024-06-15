@@ -50,10 +50,10 @@ const detailOrQuote =
 const About = () => {
   return (
     <section className="padding" id="about">
-      <img className="background" src={image} alt={imageAltText} />
+      <img className="background" src={image} alt="Motion Background" />
       <div
         style={{
-          backgroundColor: "white",
+          backgroundColor: "grey",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",

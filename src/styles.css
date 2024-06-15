@@ -6,7 +6,7 @@
 
 html,
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", sans-serif;
   height: 100%;
   margin: 0;
   overflow-x: hidden;
@@ -46,7 +46,7 @@ section img.background {
 }
 
 h1 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Mac Sans", serif;
   font-size: 7rem;
   font-weight: 400;
   line-height: 0.8;
@@ -54,6 +54,7 @@ h1 {
 }
 
 h2 {
+  font-family: "Mac Sans";
   font-size: 2rem;
   font-weight: 400;
   margin: 0;
@@ -86,20 +87,20 @@ hr {
 }
 
 li {
-  line-height: 1.7;
+  line-height: 2;
 }
 
 li::marker {
-  color: #4e567e;
+  color: #dfe855;
 }
 
 a {
-  color: black;
+  color: rgb(242, 238, 238);
   text-decoration: none;
 }
 
 a:hover {
-  color: #4e567e;
+  color: #dced54;
 }
 
 .container {
